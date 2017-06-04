@@ -26,7 +26,7 @@ Let’s start by creating code that will make Scratchy the Cat walk
 
 + Open the Moonhack 2017 Scratch project online at <a href="bit.ly/mh-scratch">bit.ly/mh-scratch</a>.
 
-+ Let’s use the arrow keys to allow Scratchy to move from left to right on the screen. When the player presses the left arrow, you want Scratchy to move left, by changing its x coordinate. Add this code to the Scratchy sprite:
++ Let’s use the arrow keys to allow Scratchy to move from left to right on the screen. When the player presses the left arrow, you want Scratchy to move left, by changing its x coordinate. Add this code to the `Scratchy` sprite:
 
 ![image](images/step1-1.png)
 
@@ -52,11 +52,11 @@ Let’s create our own blocks that will make Scratchy jump up and down
 ![image](images/step2-2.png)
 ![image](images/step2-3.png)  
 
-+ First, we are going to create code that will allow Scratchy to jump on earth. To do this, add this code to the Scratchy sprite:  
++ First, we are going to create code that will allow Scratchy to jump on earth. To do this, add this code to the `Scratchy` sprite:  
 
 ![image](images/step2-4.png)
 
-+ Next, we are going to create code for Scratchy to jump on The Moon. To do this, add this code to the Scratchy sprite: 
++ Next, we are going to create code for Scratchy to jump on The Moon. To do this, add this code to the `Scratchy` sprite: 
 
 ![image](images/step2-5.png)
 
@@ -73,7 +73,7 @@ Let’s create code that will make Scratchy jump depending on which planetary ob
 
 ## Activity Checklist { .check }
 
-+ We are going to use the Spacebar key to make Scratchy jump. To start this process, add this code to the Scratchy sprite:
++ We are going to use the Spacebar key to make Scratchy jump. To start this process, add this code to the `Scratchy` sprite:
 
 ![image](images/step3-1.png)
 
