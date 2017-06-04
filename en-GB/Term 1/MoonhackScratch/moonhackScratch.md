@@ -7,187 +7,102 @@ embeds: "*.png"
 materials: ["Club Leader Resources/*"]
 ...
 
-## Note: { .challenge .pdf-hidden }
-The 'Balloons' project has been moved to the [Additional Scratch Projects](http://projects.codeclub.org.uk/en-GB/03_scratch_bonus/index.html) section.
-
 # Introduction { .intro }
 
-You are going to make a ghost-catching game!
+Have you ever wondered what it would be like to jump on the moon? Did you know that on The Moon you can jump six times as high as you can on Earth! Not only that, you would be in the air four times as long when you jump. This is because the gravity on The Moon is much less strong than it is on Earth.  
+
+In this activity we are going to simulate the difference between jumping on The Moon compared to jumping on Earth.
+
+Is this your first time using Scratch? [This guide](https://codeclubprojects.org/en-GB/resources/scratch-intro/) introduces the Scratch programming language.
 
 <div class="scratch-preview">
 	<iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/160241020/?autostart=false" frameborder="0"></iframe>
-	<img src="ghost-final.png">
+	<img src="images/moon-final.png">
 </div>
 
-# Step 1: Animating a ghost { .activity }
+# Step 1: Make Scratchy walk { .activity }
+Let’s start by creating code that will make Scratchy the Cat walk 
+## Activity Checklist { .check }
+
++ Open the Moonhack 2017 Scratch project online at <a href="bit.ly/mh-scratch">bit.ly/mh-scratch</a>.
+
++ Let’s use the arrow keys to allow Scratchy to move from left to right on the screen. When the player presses the left arrow, you want Scratchy to move left, by changing its x coordinate. Add this code to the Scratchy sprite:
+
+![image](images/step1-1.png)
+
++ Test out your code by clicking the flag and then holding down the left arrow. Does Scratchy move to the left?
+
++ To move Scratchy to the right, you need to add another `if` {.blockcontrol} block using the right arrow:
+
+![image](images/step1-2.png) 
+
+
+# Step 2: Create Jumping Blocks { .activity }
+
+Let’s create our own blocks that will make Scratchy jump up and down 
 
 ## Activity Checklist { .check }
 
-+ Start a new Scratch project, and delete the cat sprite so that your project is empty. You can find the online Scratch editor at <a href="http://jumpto.cc/scratch-new">jumpto.cc/scratch-new</a>.
++ From the  `More Blocks` {.blockmoreblocks} category select “Make a Block” 
 
-+ Add in a new ghost sprite, and a suitable stage backdrop.
+![image](images/step2-1.png) 
 
-	![screenshot](ghost-ghost.png)
++ Make two new blocks, name them “Earth Jump” and “Moon Jump”
 
-+ Add this code to your ghost, so that it repeatedly appears and disappears:
+![image](images/step2-2.png)
+![image](images/step2-3.png)  
 
-	```blocks
-		when flag clicked
-		forever
-		hide
-		wait (1) secs
-		show
-		wait (1) secs
-		end
-	```
++ First, we are going to create code that will allow Scratchy to jump on earth. To do this, add this code to the Scratchy sprite:  
 
-+ Test out your ghost's code, by clicking the green flag.
+![image](images/step2-4.png)
 
-## Save your project { .save }
++ Next, we are going to create code for Scratchy to jump on The Moon. To do this, add this code to the Scratchy sprite: 
 
-# Step 2: Random ghosts { .activity }
+![image](images/step2-5.png)
 
-Your ghost is really easy to catch, because it doesn't move!
++ Great job! You now have new blocks that you created yourself. In step 3 we are going to create code to use these new blocks.
 
-## Activity Checklist { .check }
-
-+ Instead of staying in the same position, you can let Scratch choose random x and y coordinates instead. Add a `go to` {.blockmotion} block to your ghost's code, so that it looks like this:
-
-	```blocks
-		when flag clicked
-		forever
-			hide
-			wait (1) secs
-			go to x:(pick random (-150) to (150)) y:(pick random (-150) to (150))
-			show
-			wait (1) secs
-		end
-	```
-
-+ Test our your ghost again, and you should notice that it appears in a different place each time.
-
-## Save your project { .save }
 
 ## Challenge: More randomness {.challenge}
 Can you make your ghost `wait` {.blockcontrol} a random amount of time before appearing? Can you use the `set size` {.blocklooks} block to make your ghost a random size each time it appears?
 
-## Save your project { .save }
 
-# Step 3: Catching ghosts { .activity }
+# Step 3: Scratchy Jumps { .activity }
 
-Let's allow the player to catch ghosts!
+Let’s create code that will make Scratchy jump depending on which planetary object he is on.
 
 ## Activity Checklist { .check }
 
-+ To allow the player to catch a ghost, add this code:
++ We are going to use the Spacebar key to make Scratchy jump. To start this process, add this code to the Scratchy sprite:
 
-	```blocks
-		when this sprite clicked
-		hide
-	```
+![image](images/step3-1.png)
 
-+ Test out your project. Can you catch ghosts as they appear? If you find it difficult to catch the ghosts, you can play the game in fullscreen mode by clicking this button:
++ Test out your code. If it is not functioning the way we would like it to currently. That is because we need to add a `condition` {.blockoperators} between the words “if” and “then” like the code below:
 
-	![screenshot](ghost-fullscreen.png)
+![image](images/step3-2.png)
+
++ Test your code out by clicking the green flag and then jumping on both sides of the stage.
+
+![image](images/step3-3.png) 
+
++ What is happening and how does the program know what side of the stage Scratchy the Cat is on?
+
+**Congratulations!** You have completed the Moonhack Scratch project of 2017! Celebrate by jumping up and down yourself. Make sure they are Earth jumps though :)
+
+Now that this project is done there are so many other things you can do. You can...
+ 
+* Improve this project by completing the challenges below
+* Have a go at the Moonhack Python project
+* Create your own “Moon” themed project in Scratch, Python or HTML/CSS!
+
 
 ## Challenge: Adding a sound { .challenge }
-Can you make a sound each time a ghost is caught?
+Can you make a sound every time Scratchy jumps off the ground? 
 
-## Save your project { .save }
+## Challenge: Costume change { .challenge }
+Scratchy is wearing his space helmet even when he is on Earth. Can you make it so the helmet comes off if he steps onto Earth?
 
-# Step 4: Adding a score { .activity .new-page }
-
-Let's make things more interesting by keeping score.
-
-## Activity Checklist { .check }
-
-+ To keep the player's score, you need a place to put it. A __variable__ is a place to store data that can change, like a score.
-
-	To create a new variable, click on the 'Scripts' tab, select `Data` {.blockdata} and then click 'Make a Variable'.
-	
-	![screenshot](ghost-score.png)
-	
-	Type 'score' as the name of the variable, make sure that it is available for all sprites, and click 'OK' to create it. You'll then see lots of code blocks that can be used with your `score` {.blockdata} variable.
-	
-	![screenshot](ghost-variable.png)
-	
-	You'll also see the score in the top-left of the stage.
-	
-	![screenshot](ghost-stage-score.png)
-
-+ When a new game is started (by clicking the flag), you should set the player's score to 0:
-
-	```blocks
-		when flag clicked
-		set [score v] to [0]
-	```
-
-+ Whenever a ghost is caught, you need to add 1 to the player's score:
-
-	![screenshot](ghost-change-score.png)
-
-+ Run your program again and catch some ghosts. Does your score change?
-
-## Save your project { .save }
-
-# Step 5: Adding a timer { .activity }
-
-You can make your game more interesting, by only giving your player 10 seconds to catch as many ghosts as possible.
-
-## Activity Checklist { .check }
-
-+ You can use another variable to store the remaining time left. Click on the stage, and create a new variable called 'time':
-
-	![screenshot](ghost-time.png)
-
-+ This is how the timer should work:
-
-	+ The timer should start at 10 seconds;
-	+ The timer should count down every second;
-	+ The game should stop when the timer gets to 0.
-
-	Here's the code to do this, which you can add to your __stage__:
-
-	```blocks
-		when flag clicked
-		set [time v] to [10]
-		repeat until <(time) = [0]>
-			wait (1) secs
-			change [time v] by (-1)
-		end
-		stop [all v]
-	```
-
-	This is how you add the `repeat until`{.blockcontrol}`time`{.blockdata}`= 0`{.blockoperators} code:
-
-	![screenshot](ghost-timer-help.png)
-
-+ Drag your 'time' variable display to the right side of the stage. You can also right-click on the variable display and choose 'large readout' to change how the time is displayed.
-
-	![screenshot](ghost-readout.png)
-
-+ Ask a friend to test your game. How many points can they score? If your game is too easy, you can:
-
-	+ Give the player less time;
-	+ Make the ghosts appear less often;
-	+ Make the ghosts smaller.
-	
-	Test your game a few times until you're happy that it's the right level of difficulty.
-
-## Save your project { .save }
-
-## Challenge: More objects {.challenge}
-Can you add in other objects to your game?
-
-![screenshot](ghost-final.png)
-
-You'll need to think about the objects you're adding. Think about:
-
-+ How big is it?
-+ Will it appear more or less often than the ghosts?
-+ What will it look/sound like when it has been caught?
-+ How many points will you score (or lose) for catching it?
-
-If you need help adding another object, you can reuse the steps above!
+## Challenge: Custom stage { .challenge }
+Can you create your own background by using a photo of your home or school and using Scratch to add drawings.
 
 ## Save your project { .save }
