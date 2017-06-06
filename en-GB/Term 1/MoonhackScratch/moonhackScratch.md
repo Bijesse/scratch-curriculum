@@ -9,7 +9,7 @@ materials: ["Club Leader Resources/*"]
 
 # Introduction { .intro }
 
-Have you ever wondered what it would be like to jump on the moon? Did you know that on The Moon you can jump six times as high as you can on Earth! Not only that, you would be in the air four times as long when you jump. This is because the gravity on The Moon is much less strong than it is on Earth.  
+The Moon is about 27% the size of Earth. This size difference means that gravity on The Moon is much weaker than it is here on Earth. In order for astronauts prepare for space travel, they need to understand what effect gravity has on the way they move around. Create a simulator that demonstrates how someone on The Moon can jump six times as high as you can on Earth! Not only that, you would be in the air four times as long when you jump. This is because the gravity on The Moon is much less strong than it is on Earth.  
 
 In this activity we are going to simulate the difference between jumping on The Moon compared to jumping on Earth.
 
