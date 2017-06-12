@@ -63,9 +63,8 @@ Let’s create our own blocks that will make Scratchy jump up and down
 + Great job! You now have new blocks that you created yourself. In step 3 we are going to create code to use these new blocks.
 
 
-## Challenge: More randomness {.challenge}
-Can you make your ghost `wait` {.blockcontrol} a random amount of time before appearing? Can you use the `set size` {.blocklooks} block to make your ghost a random size each time it appears?
-
+## Challenge: Jumping on Mars {.challenge}
+What is the force of gravity like on Mars? Can you find out how high you can jump on Mars and write a program that simulats this?
 
 # Step 3: Scratchy Jumps { .activity }
 
