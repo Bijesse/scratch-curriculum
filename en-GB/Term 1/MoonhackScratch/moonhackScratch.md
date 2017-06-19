@@ -24,7 +24,7 @@ Is this your first time using Scratch? [This guide](https://codeclubprojects.org
 Let’s start by creating code that will make Scratchy the Cat walk 
 ## Activity Checklist { .check }
 
-+ Open the Moonhack 2017 Scratch project online at <a href="bit.ly/mh-scratch">bit.ly/mh-scratch</a>.
++ Open the Moonhack 2017 Scratch project online at <a href="https://bit.ly/mh-scratch">bit.ly/mh-scratch</a>.
 
 + Let’s use the arrow keys to allow Scratchy to move from left to right on the screen. When the player presses the left arrow, you want Scratchy to move left, by changing its x coordinate. Add this code to the `Scratchy` sprite:
 
