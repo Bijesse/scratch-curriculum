@@ -9,7 +9,7 @@ materials: ["Club Leader Resources/*"]
 
 # Introduction { .intro }
 
-The Moon is about 27% the size of Earth. This size difference means that gravity on The Moon is much weaker than it is here on Earth. In order for astronauts prepare for space travel, they need to understand what effect gravity has on the way they move around. Create a simulator that demonstrates how someone on The Moon can jump six times as high as you can on Earth! Not only that, you would be in the air four times as long when you jump. This is because the gravity on The Moon is much less strong than it is on Earth.  
+The Moon is about 27% the size of Earth. This size difference means that gravity on The Moon is much weaker than it is here on Earth. In order for astronauts to prepare for space travel, they need to understand what effect gravity has on the way they move around. Create a simulator that demonstrates how someone on The Moon can jump six times as high as you can on Earth! Not only that, you would be in the air four times as long when you jump. This is because the gravity on The Moon is much less strong than it is on Earth.  
 
 In this activity we are going to simulate the difference between jumping on The Moon compared to jumping on Earth.
 
@@ -98,8 +98,8 @@ Now that this project is done there are so many other things you can do. You can
 ## Challenge: Adding a sound { .challenge }
 Can you make a sound every time Scratchy jumps off the ground? 
 
-## Challenge: Costume change { .challenge }
-Scratchy is wearing his space helmet even when he is on Earth. Can you make it so the helmet comes off if he steps onto Earth?
+## Challenge: Mars Jump { .challenge }
+How high can Scratchy jump if he was on Mars? Research the strength of gravity on Mars and write code to simulate Scratchy jumping on the red planet!
 
 ## Challenge: Custom stage { .challenge }
 Can you create your own background by using a photo of your home or school and using Scratch to add drawings.
