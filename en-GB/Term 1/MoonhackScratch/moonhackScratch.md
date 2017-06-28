@@ -54,7 +54,7 @@ Let’s create our own blocks that will make Scratchy jump up and down
 
 + First, we are going to create code that will allow Scratchy to jump on earth. To do this, add this code to the `Scratchy` sprite:  
 
-![image](images/step2-4.png)
+![image](images/step2_4.png)
 
 + Next, we are going to create code for Scratchy to jump on The Moon. To do this, add this code to the `Scratchy` sprite: 
 
